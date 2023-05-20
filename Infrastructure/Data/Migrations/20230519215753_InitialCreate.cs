@@ -11,7 +11,7 @@ namespace Infrastructure.data.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "Prodcuts",
+                name: "Products",
                 columns: table => new
                 {
                     id = table.Column<int>(type: "INTEGER", nullable: false)
@@ -28,7 +28,7 @@ namespace Infrastructure.data.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Prodcuts");
+                name: "Products");
         }
     }
 }

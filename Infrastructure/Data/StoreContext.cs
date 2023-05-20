@@ -9,6 +9,6 @@ namespace Infrastructure.Data
         public StoreContext(DbContextOptions options) : base(options)
         {
         }
-        public DbSet<Product> Prodcuts{get;set; }
+        public DbSet<Product> Products{get;set; }
     }
 }
